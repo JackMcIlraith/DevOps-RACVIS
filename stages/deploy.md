@@ -6,12 +6,14 @@
 ### __Stage description:__  
 Insert your description of the stage here  
 
-| Pipeline Stage:<br>Deploy  | Role 1  | Role 2  | Role 3  | Role 4  | Role N  |
+| Pipeline Stage:<br>Deploy  | Developer  | Sys Admin  | Product Owner  | Expert User  | UX Designer  | Team Lead (4 devs under)  | Lead Dev (6 teams to manage)  |
 |----------------------------- |-------- |-------- |-------- |-------- |-------- |
-| Task 1                       |         |         |         |         |         |
-| Task 2                       |         |         |         |         |         |
-| Task 3                       |         |         |         |         |         |
-| Task N                       |         |         |         |         |         |
-  
-  
+| Local Deployment for internal testing                       |         |         |         |         |         |
+| Version Control - For Rollbacks                       |         |         |         |         |         |
+| Integration - Works with dependencies in production enviroment                       |         |         |         |         |         |
+| Acceptance - All users happy with release for deploy                       |         |         |         |         |         |
+| Docker/Server Build                       |         |         |         |         |         |
+| Canary Launch to verify stability                       |         |         |         |         |         |
+| Blue-Green/Production Deployment                       |         |         |         |         |         |
+ 
 [Home](../index.md)  
