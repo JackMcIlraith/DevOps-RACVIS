@@ -8,7 +8,7 @@ Insert your description of the stage here
 
 | Pipeline Stage:<br>Deploy                                      | Developer  | Sys Admin  | Product Owner  | Expert User  | UX Designer  | Team Lead (4 devs under)  | Lead Dev (6 teams to manage)  |
 |--------------------------------------------------------------- |----------- |----------- |--------------- |------------- |------------- |-------------------------- |------------------------------ |
-| Local Deployment for internal testing                          | R V        | S          |                |              |              |                           | A I                           |
+| Local Deployment for internal testing                          | R V        |            |                |              |              |      AS                   | A I                           |
 | Version Control - For Rollbacks                                |            |            |                |              |              |                           |                               |
 | Integration - Works with dependencies in production enviroment |            |            |                |              |              |                           |                               |
 | Acceptance - All users happy with release for deploy           |            |            |                |              |              |                           |                               |
