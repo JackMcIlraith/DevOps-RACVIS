@@ -6,14 +6,14 @@
 ### __Stage description:__  
 Insert your description of the stage here  
 
-| Pipeline Stage:<br>Deploy                                      | Developer  | Sys Admin  | Product Owner  | UX Designer  | Team Lead (4 devs under)  | Lead Dev (6 teams to manage)  |
-|--------------------------------------------------------------- |----------- |----------- |--------------- |------------- |-------------------------- |------------------------------ |
-| Local Deployment for internal testing                          | R V        |            |                |              | AS                        |                               |
-| Version Control - For Rollbacks                                | I          | C V        |                | I            | R                         | A S                           |
-| Integration - Works with dependencies in production enviroment | R          | C          |                | R            | AV                        | S                             |
-| Acceptance - All users happy with release for deploy           |            | S          | S              |              |                           | S                             |
-| Docker/Server Build                                            | R          | S          |                | C            | CV                        | A                             |
-| Canary Launch to verify stability                              | R          | A V        | S C-Feedback   | I V          | V                         | S                             |
-| Blue-Green/Production Deployment                               | I V        |            | C S            | I            | R                         | A                             |
+| Pipeline Stage:<br>Deploy                                      | Developer  | Product Owner  | UX Designer  | Senior Developer          | Lead Dev (6 teams to manage)  |
+|--------------------------------------------------------------- |----------- |--------------- |------------- |-------------------------- |------------------------------ |
+| Local Deployment for internal testing                          | R V        |                |              | A S                       |                               |
+| Version Control - For Rollbacks                                | I          |                | I            | R                         | A S                           |
+| Integration - Works with dependencies in production enviroment | R          |                | R            | A V                       | S                             |
+| Acceptance - All users happy with release for deploy           |            | S              |              | S                         | S                             |
+| Docker/Server Build                                            | R          |                | C            | C V                       | A S                           |
+| Canary Launch to verify stability                              | R          | S C-Feedback   | I V          | A V                       | S                             |
+| Blue-Green/Production Deployment                               | I V        | C S            | I            | R                         | A                             |
  
 [Home](../index.md)  
